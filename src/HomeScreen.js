@@ -25,7 +25,7 @@ function HomeScreen(){
             />
             <Row 
             title="Top Rated" 
-            fetchUrl={requests.fetchfetchTopRated}
+            fetchUrl={requests.fetchTopRated}
             />
             <Row 
             title="Action Movies" 
@@ -47,6 +47,7 @@ function HomeScreen(){
             title="Documentaries" 
             fetchUrl={requests.fetchDocumentaries}
             />
+            
 
         </div>
     );
